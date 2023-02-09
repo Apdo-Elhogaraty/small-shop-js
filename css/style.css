@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #ccc;
+}
+header h1{
+    letter-spacing: 20px;
+    color: #00f;
+    justify-content: center;
+}
+.row.container{
+    margin: auto;
+}
+.card .card-img-top{
+    height: 300px;
+}
+.sales{
+    border: 2px solid #ccc;
+    height: 300px;
+    padding: 30px;
+    position: relative;
+}
+.sales div{
+    padding: 20px 0;
+}
+.sales div span{
+    color: #00f;
+    background-color: #ccc;
+    font-size: 25px;
+    padding:  0 8px;
+    border-radius: 12px;
+    margin: 10px;
+}
